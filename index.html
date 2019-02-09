@@ -10,16 +10,16 @@
       <link rel="stylesheet" type="text/css" href="style.css"> 
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
       <link href="https://fonts.googleapis.com/css?family=Ubuntu:500" rel="stylesheet">
-      <link rel="shortcut icon" type="image/x-icon" href="img/icon.png">
+      <link rel="shortcut icon" href="img/icon.png">
   </head> 
 <body>
-	<div class="loaderArea">
-     	<div class="loader-content"><img src="img/xaxolloading.gif" alt="Загрузчик"></div>
-  	</div>
+<div class="loaderArea">
+     <div class="loader-content"><img src="img/xaxolloading.gif" alt=""></div>
+  </div> 
 <section id="main">
   <!-- Интро-->
   <div class="intro" id="trailer">
-	    <video muted autoplay preload>
+    <video muted autoplay preload>
       <source src="zaebal.mp4" type="video/mp4">
     </video>
   </div>
@@ -99,7 +99,7 @@
               <li class="opis">
                 <ul><h3>Ди Каприо нашего времени</h3></ul>
                 <ul><h3>Ржавый снаружи, но чистый внутри</h3></ul>
-                <ul><h3>Спародировал PHARAOH'a <strong>5 Минут Назад</strong></h3></ul>
+                <ul><h3>Спародировал трек PHARAOH'a <strong>5 Минут Назад</strong></h3></ul>
                 <ul><h3>VK:</h3></ul>
                 <ul><h3>Instagram:</h3></ul>
               </li>
@@ -183,7 +183,7 @@
           <h3 class="text-center"><strong>Другой стикер</strong></h3>
           <li>
           <ul><h4>Первая серия наших стикеров.</h4></ul>
-           <ul><h4>Ни чем ни хуже прошлого.</h4></ul>
+           <ul><h4>Ни чем ни хуже прошлых.</h4></ul>
             <ul><h4>Размеры <b> 7см х 5см.</b></h4></ul>
              <ul><h4> Тираж <b>ОГРАНИЧЕН</b> успей забрать пока холодные.</h4></ul>
              </li>
@@ -261,7 +261,7 @@
   <section class="our-links" id="6">
     <div class="links container">
       <h1>Понравилось?
-        <p class="IntroDescription">Тогда обязательно подпишись на нас в во всех Соц-сетях.</p></h1>
+        <p class="IntroDescription">Тогда обязательно подпишись на нас во всех Соц-сетях.</p></h1>
       <div class="row ssalka">
       <div class="col-md-6 teht">
         <div class="maks"><img src="img/link3.png"></div>
@@ -326,7 +326,7 @@ ChoKogo.ru © 2017</div>
   <script> //Слайдер
       $(document).ready(function(){
         $('.bxslider').bxSlider({
-          auto:false,
+          auto:true,
           autoControls: false,
           speed:1500,
           adaptiveHeight:true,
@@ -361,7 +361,7 @@ ChoKogo.ru © 2017</div>
         }
       });
   </script>
-  <script> //Анимация загрузочного экрана.Саси
+ <script> //Анимация загрузочного экрана.Саси
       $(window).on('load', function () {
         $preloader = $('.loaderArea'),
           $loader = $preloader.find('.loader');

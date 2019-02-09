@@ -58,13 +58,13 @@ a{
   top: 0;
   right:0;
   bottom:0;
-  z-index: 100000;
+  z-index: 10000000;
   align-items: center;
 }
 .loader-content img {
 	max-width:100%;
 	width: 5%; 
-	margin: 400px auto;
+	margin: 22% auto;
 	display: block;
 }
 
@@ -116,7 +116,9 @@ header{
 	display: block; 
 	width: 100%; 
 	height: 100%; 
+
  }
+
 #trailer {
 	position: absolute;
 	top: 0; 
@@ -124,6 +126,7 @@ header{
 	bottom: 0; 
 	left: 0;
 	overflow: hidden;
+	padding: 0 0;
  }
 #trailer > video {
 	position: absolute;
@@ -556,9 +559,14 @@ iframe {
     width: 600px;
   }
 @media(min-width: 0px) and (max-width: 320px) {
+	.loader-content img {
+		margin: 80% auto;
+		width: 20%;
+	}
   	.figure{
-  		right: 620px;
+  		right: 820px;
     	top: -1950px;
+    	transform: scale(20) rotate(-76deg) skewX(7deg);
   	}
   	.mainMenu {
   		display: none !important;
@@ -696,14 +704,12 @@ iframe {
 	.instagram img, .yt img, .vk img {
 		max-width: 100%;
 	}
-	.loader-content img {
-		max-width:100%;
-		width: 25%; 
-		margin: 400px auto;
-		display: block;
-	}
 }
 @media(min-width: 321px) and (max-width: 480px) {
+	.loader-content img {
+		margin: 350px auto !important;
+		width: 20% !important;
+	}
 	h1{
 		font-size: 2.9rem;
 	}
@@ -713,7 +719,7 @@ iframe {
   	}
 	.figure{
 		right: 720px;
-    	top: -2850px;
+    	top: -2550px;
     	transform: scale(20) rotate(-81deg) skewX(7deg);
 	}
 	.mainMenu{
@@ -852,12 +858,6 @@ iframe {
     	width: 90%;
     	font-size: 9px;
     }
-    .loader-content img {
-		max-width:100%;
-		width: 25%; 
-		margin: 400px auto;
-		display: block;
-	}
 }
 @media(min-width: 481px) and (max-width: 600px){
 	.mainMenu{
@@ -958,6 +958,10 @@ iframe {
     }
 }
 @media(min-width: 768px) and (max-width: 880px){
+	.loader-content img {
+		margin: 45% auto;
+		width: 10%;
+	}
 	.mainMenu{
 		display: none !important;
 	}
@@ -1010,6 +1014,10 @@ iframe {
   		padding:40px 0; 
   		margin-left: 20px;
   	}
+  	.slide img {
+  		max-width: 100%;
+  		width: 95%;
+  	}
   	.first-stick,.second-stick {
   		left: 0;
   		right: 0;
@@ -1061,39 +1069,123 @@ iframe {
     .another ul {
     	line-height: 1;
     }
-    .first-stick .products-face{
-    	padding:120px 25px;
-    }
     .second-stick .products-face{
     	padding:60px 25px;
     }
     .our-links {
     	min-height: initial;
     }
-    .loader-content img {
-		max-width:100%;
-		width: 10%; 
-		margin: 400px auto;
-		display: block;
-	}
+    .description-product,.products-face{
+    	padding: 15px 15px;
+  	}
 }
-@media(min-width: 1023px) and (max-width: 1439px) {
+@media (min-width: 881px) and (max-width: 1024px) {
+	.loader-content img{
+		margin: 35% auto;
+	}
+	.conflicts h4,.description h4{
+		font-size: 24px;
+		padding-bottom:25px ;
+	}
+	iframe {
+    	width: 444px;
+    	height: 277px;
+    	padding-bottom:20px ;
+	}
 	.mainMenu{
 		display: none !important;
 	}
 	.slide {
+		margin-left: 10px;
+	}
+	.slide img {
+		max-width: 100%;
+		width: 90%;
+	}
+	.slide h2 {
+		font-size: 40px;
+	}
+	.slide h3 {
+		font-size: 27px;
+		line-height: 2;
+	}
+	.opis ul {
+		list-style-image: url(img/ckXL.png);
+	}
+	.her {
+		border-top: 25px solid;
+		border-bottom: 25px solid;
+		width: 95%;
+		margin-left: -20px;
+	}
+	.figure {
+ 		top: -1500px;    
+    	transform: scale(19) rotate(-90deg) skewX(1deg);
+    	right: 449px;
+	}
+	.first-stick,.second-stick{
+		max-width: 100%;
+		width: 90%;
+
+	}
+	.buy a{
+		font-size: 30px;
+		padding:14px 0;
+	}
+	.team {
+		min-height: initial;
+	}
+	.buy h3{
+		font-size: 32px;
+	}
+	.description-product h4{
+		font-size: 22px;
+	}
+	.description-product ul{
+		line-height: 1;
+	}
+	.first-stick{
+		left: 90px;
+	}
+	.second-stick {
+		left: 0px;
+	}
+	.description-product, .products-face{
+		padding:15px 15px;
+	}
+	.comment{
+		width: 49%;
+		padding: 10px 15px;
+	}
+	.teht img{
+		width: 90%;
+		margin-left: 30px;
+	}
+	.vk img,.yt img,.instagram img{
+		width: 81%;
+	}
+}
+@media(min-width: 1300px) and (max-width: 1439px) {
+	.loader-content img {
+		margin: 25% auto;
+		width: 5%;
+	}
+	.slide {
 		margin-left: 20px;
 		height: 658px;
-
 	}
 	.slide img{
 		max-height: 100%;
 	}
 	.figure {
-		right: 400px;
+		right: 340px;
+		transform: scale(20) rotate(-90deg) skewX(0deg);
+	}
+	.opis {
+		width: 90%;
 	}
 	.opis h3{
-		font-size: 24px;
+		font-size: 1.9rem;
 		line-height: 2.1;
 	}
 	.her {
@@ -1106,20 +1198,27 @@ iframe {
 	}
 	.opis ul {
 		padding-left: 0px;
+		list-style-image: url(img/ckXL.png);
 	}
 	.first-stick,.second-stick {
 		right: 0;
 		left: 0;
 		margin-bottom: 60px;
+		max-width: 100%;
+		width: 90%;
+	}
+	.buy h4 {
+		font-size: 1.4rem;
+	}
+	.buy a {
+		font-size: 33px;
+		padding: 14px 0;
+	}
+	.first-stick{
+		left: 15%;
 	}
 	.second-stick {
-		left: 60px;
-	}
-	.first-stick {
-		left:-50px;
-	}
-	.team{
-		min-height:  initial;
+		left: -4%;
 	}
 	.comment{
 		width: 49%;
@@ -1133,14 +1232,26 @@ iframe {
 	.conflicts h4,.desc h4 {
 		padding-bottom: 30px;
 	}
-	.loader-content img {
-		max-width:100%;
-		width: 7%; 
-		margin: 400px auto;
-		display: block;
+	.teht img{
+		max-width: 100%;
+		width: 90%;
+	}
+	.vk img,.yt img,.instagram img{
+		max-width: 100%;
+		width: 84%;
+	}
+	.mainMenu a{
+		font-size: 15px;
+	}
+	.our-links{
+		min-height: initial;
 	}
 }
 @media (min-width: 1440px) and (max-width: 1902px){
+	.loader-content img {
+		margin: 25% auto;
+		width: 5%;
+	}
 	.mainMenu a{
 		font-size: 15px;
 	}
@@ -1150,25 +1261,30 @@ iframe {
 		height: 760px;
 	}
 	.slide img{
-		max-height: 100%;
+		max-height: 90%;
 	}
 	.her {
 		width: 95%;
 		margin-left: -20px;
 	}
 	.slide h3{
-		font-size: 2rem;
+		font-size: 1.9rem;
+		line-height: 2.3;
 	}
 	.first-stick,.second-stick {
 		right: 0;
 		left: 0;
 		margin-bottom: 60px;
+		width: 90%;
 	}
 	.second-stick {
-		left: 100px;
+		left: -60px;
+	}
+	.opis {
+		width: 90%;
 	}
 	.first-stick {
-		right: 100px;
+		left: 100px;
 	}
 	.vk,.yt,.instagram{
 		margin-left: 40px;
@@ -1179,6 +1295,19 @@ iframe {
     .figure {
     	right: 220px;
     }
+    .teht img {
+    	max-width:90%; 
+    }
+    .instagram img, .yt img, .vk img{
+    	max-width: 90%;
+    }
+ 	.description-product h4{
+ 		font-size: 22px;
+ 	}
+ 	.description-product a{
+ 		font-size: 35px;
+ 		padding: 14px 0;
+ 	}
 }
 
  @media (min-aspect-ratio: 16/9) {
