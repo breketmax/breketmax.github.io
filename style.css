@@ -564,10 +564,11 @@ iframe {
 		width: 20%;
 	}
   	.figure{
-  		right: 820px;
-    	top: -1950px;
-    	transform: scale(20) rotate(-76deg) skewX(7deg);
-  	}
+    	right: 523px;
+    	top: -2301px;
+    	transform: scale(11) rotate(-90deg) skewX(0deg);
+    	height: 100px;
+	}
   	.mainMenu {
   		display: none !important;
   	}
@@ -596,7 +597,7 @@ iframe {
   		margin: 20px auto;
   	}
   	.products-face,.description-product{
-  		padding: 15px 15px;
+  		padding: 10px 10px;
   	}
   	.description-product h4{
   		font-size: 18px;
@@ -608,6 +609,7 @@ iframe {
   	.description-product a{
   		font-size: 25px;
   		width: 226px;
+  		padding: 14px 0;
   	}
   	.description-product ul {
   		line-height: 1;
@@ -717,10 +719,11 @@ iframe {
   		font-size: 1.3rem;
   		padding-bottom: 30px;
   	}
-	.figure{
-		right: 720px;
-    	top: -2550px;
-    	transform: scale(20) rotate(-81deg) skewX(7deg);
+	.figure {
+    	right: 723px;
+    	top: -2900px;
+    	transform: scale(14) rotate(-90deg) skewX(0deg);
+    	height: 100px;
 	}
 	.mainMenu{
 		display: none !important;
@@ -728,7 +731,7 @@ iframe {
 	iframe{
 		max-width: 100%;
 		width: 95%;
-		height: 281px;
+		height: 224px;
 		padding-bottom: 30px;
 	}
 	.hero img{
@@ -767,6 +770,7 @@ iframe {
 		border-top: 30px solid;
     	border-bottom: 30px solid;
     	border-image: url(img/wire.png) 50 repeat;
+    	padding: 14px 0;
 
 	}
 	.first-stick,.second-stick {
@@ -780,8 +784,11 @@ iframe {
   		width: 90%;
   		margin: 20px auto;
   	}
-  	.products-face,.description-product{
+  	.description-product{
   		padding: 20px 20px;
+  	}
+  	.products-face{
+  		padding: 10px 10px;
   	}
   	.description-product h4{
   		font-size: 22px;
@@ -794,6 +801,7 @@ iframe {
   	.description-product a{
   		font-size: 30px;
   		width: inherit;
+  		padding: 14px 0;
   	}
   	.description-product li {
   		line-height: 1.5;
