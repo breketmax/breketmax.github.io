@@ -20,19 +20,19 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'breketmax.github.io', 'database_name_here' );
 
 /** Имя пользователя MySQL */
-define( 'DB_USER', 'username_here' );
+define( 'breketmax', 'username_here' );
 
 /** Пароль к базе данных MySQL */
-define( 'DB_PASSWORD', 'password_here' );
+define( '03012002', 'password_here' );
 
 /** Имя сервера MySQL */
-define( 'DB_HOST', 'localhost' );
+define( 'breketmax', 'localhost' );
 
 /** Кодировка базы данных для создания таблиц. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'breketmax', 'utf8' );
 
 /** Схема сопоставления. Не меняйте, если не уверены. */
 define( 'DB_COLLATE', '' );
