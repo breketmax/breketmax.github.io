@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #0077ff;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero {
+    background: #000 url('img/main-background.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.about {
+    background: #09001D;
+    flex-direction: column;
+    color: white;
+}
+
+.about h2 {
+    font-size: 4rem;
+}
+.about p {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+/* Слайдер */
+.slider {
+    background: #eaeaea;
+    padding: 40px 20px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-content {
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    gap: 20px;
+}
+
+.slide-image {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.slide-text {
+    flex: 1;
+}
+
+.slide-text h3 {
+    font-size: 4rem;
+    font-weight: 700;
+    color:#fe3259;
+    margin-bottom: 10px;
+}
+
+.slide-text h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.slide-text p {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #555;
+    text-align: start;
+}
+
+
+.track-card {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.track-card img {
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Блок с треком */
+.track {
+    background: #09001D;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.track-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    gap: 80px;
+}
+
+.track-image-container {
+    position: relative;
+}
+
+.track-image {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.play-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.track-info {
+    flex: 1;
+}
+
+.track-info h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color:#fe3259;
+}
+
+.track-info p {
+    font-size: 1rem;
+    line-height: 1.4;
+    color:white;
+    margin-bottom: 15px;
+}
+
+.track-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #0077ff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.track-link:hover {
+    background-color: #0056cc;
+}
+
+/* Блок отправки демки */
+.demo-submission {
+    background: linear-gradient(135deg, rgba(254, 50, 89, 1), rgba(254, 50, 89, 0.3));
+    color: #fff;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.demo-content {
+    max-width: 800px;
+}
+
+.demo-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.demo-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.demo-requirements {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.demo-requirements li {
+    font-size: 1rem;
+    background: rgba(9, 0, 29, 0.31);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.demo-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: rgba(9, 0, 29,1);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.demo-link:hover {
+    background-color: #ffa500;
+    transform: scale(1.05);
+}
+
+
+footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    color: #fff;
+}
